@@ -303,3 +303,64 @@ Git – The most widely used VCS, often paired with platforms like GitHub, GitLa
 
 Apache Subversion (SVN) – A centralized version control system used in older projects.
 
+# Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
+1. Unit Testing
+
+Definition
+
+Unit testing focuses on testing individual components (functions, methods, or modules) of a software application in isolation.
+
+Importance
+
+Identifies Bugs Early: Detects issues at an early stage, reducing overall debugging time.
+
+Ensures Code Reliability: Helps verify that each unit of code works as expected.
+
+Supports Code Refactoring: Allows developers to modify code without breaking existing functionality.
+
+Example
+
+A function that calculates the total price of items in a shopping cart is tested independently to ensure it returns the correct sum.
+
+---
+
+2. Integration Testing
+
+Definition
+
+Integration testing evaluates how different components or modules of a system interact with each other.
+
+Importance
+
+Verifies Data Flow: Ensures that modules communicate properly through APIs, databases, or services.
+
+Detects Interface Issues: Catches errors in how different software components work together.
+
+Improves System Stability: Identifies compatibility issues before system-wide testing.
+
+Example
+
+Testing the interaction between a login module and a database to ensure user authentication works correctly.
+
+---
+
+3. System Testing
+
+Definition
+
+System testing checks the entire application as a whole to validate that it meets the defined requirements.
+
+Importance
+
+Ensures End-to-End Functionality: Verifies that the complete system performs correctly in different environments.
+
+Detects Performance Issues: Identifies problems related to system load, response time, or crashes.
+
+Validates Compliance: Ensures the software adheres to business requirements and industry standards.
+
+Example
+
+Testing
+
+
